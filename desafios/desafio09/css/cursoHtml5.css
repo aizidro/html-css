@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(24, 23, 23);
+    margin-top: 20px;
+}
+
+#textH1color{
+    color: #f1f1f1;
+}
+
+#textH3color{
+    color: #f1f1f1;
+}
