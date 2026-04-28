@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*NESSE CASO SEM O SHORTHAND TEMOS QUE USAR TODAS ESSAS LINHAS*/
+            /*background-color: black;
             background-image: url(./imagens/wallpaper002.jpg);
             background-position: center top;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+        /*  Shorthand - background  E COM O SHORTHAND APENAS ESSA LINHA É O SUFICIENTE, A ORDEM DEVE SER SEMPRE ESSA:
+            color > image > position > / > size > repeat > attachment.  
+        */
+         
+            background: black url('./imagens/wallpaper002.jpg') center top/cover no-repeat fixed;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +35,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur sed eligendi consequuntur rerum aspernatur laborum deserunt, blanditiis doloribus totam, saepe tenetur maiores ab assumenda aliquam eaque ipsam at! Id.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur sed eligendi consequuntur rerum aspernatur laborum deserunt, blanditiis doloribus totam, saepe tenetur maiores ab assumenda aliquam eaque ipsam at! Id.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur sed eligendi consequuntur rerum aspernatur laborum deserunt, blanditiis doloribus totam, saepe tenetur maiores ab assumenda aliquam eaque ipsam at! Id.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur sed eligendi consequuntur rerum aspernatur laborum deserunt, blanditiis doloribus totam, saepe tenetur maiores ab assumenda aliquam eaque ipsam at! Id.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga laborum harum facere eaque totam reprehenderit quasi labore iste quaerat dolore ratione fugiat, laboriosam tempore. Quia optio exercitationem accusamus accusantium.Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur sed eligendi consequuntur rerum aspernatur laborum deserunt, blanditiis doloribus totam, saepe tenetur maiores ab assumenda aliquam eaque ipsam at! Id.</p>
     </main>
 </body>
